@@ -48,6 +48,8 @@ Keyboard_ Keyboard;
 #define HID_REPORTID_MOUSE (1)
 #define HID_REPORTID_KEYBOARD (2)
 #define HID_REPORTID_RAWHID (3)
+#define HID_REPORTID_SYSTEMCONTROL (4)
+
 extern const u8 _hidReportDescriptor[] PROGMEM;
 const u8 _hidReportDescriptor[] = {
 	
